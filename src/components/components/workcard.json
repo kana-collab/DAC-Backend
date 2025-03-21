@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_workcards",
+  "info": {
+    "displayName": "workcard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ClientName": {
+      "type": "string"
+    },
+    "WorkDescription": {
+      "type": "text"
+    },
+    "WebsiteLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.links"
+    }
+  }
+}

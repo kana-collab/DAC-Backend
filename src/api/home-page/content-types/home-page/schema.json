@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.header"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero"
+    },
+    "Story": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.our-story"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.services"
+    },
+    "worktitle": {
+      "type": "string"
+    },
+    "Workcard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.workcard"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.cta-section"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.footer"
+    }
+  }
+}

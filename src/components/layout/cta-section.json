@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_cta_sections",
+  "info": {
+    "displayName": "CTASection"
+  },
+  "options": {},
+  "attributes": {
+    "CTAText": {
+      "type": "string"
+    },
+    "CTASubtext": {
+      "type": "string"
+    },
+    "CTAButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.cta"
+    },
+    "CTAImage": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroSubtitle": {
+      "type": "text"
+    },
+    "LearnMoreCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.cta"
+    }
+  }
+}

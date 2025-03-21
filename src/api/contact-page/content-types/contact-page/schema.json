@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.header"
+    },
+    "CallNumber": {
+      "type": "string",
+      "maxLength": 12
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.footer"
+    }
+  }
+}

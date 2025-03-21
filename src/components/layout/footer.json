@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "BgCover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ShortCName": {
+      "type": "string"
+    },
+    "CName": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "maxLength": 12
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

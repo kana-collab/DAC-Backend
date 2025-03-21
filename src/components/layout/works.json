@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_works",
+  "info": {
+    "displayName": "works"
+  },
+  "options": {},
+  "attributes": {
+    "ourWorks": {
+      "displayName": "workcard",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.workcard"
+    }
+  }
+}

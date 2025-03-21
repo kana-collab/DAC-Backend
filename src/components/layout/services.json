@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ServiceSectionName": {
+      "type": "string",
+      "default": "Services"
+    },
+    "ServiceSectionText": {
+      "type": "string"
+    },
+    "ServiceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.card"
+    },
+    "Nocard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.card"
+    }
+  }
+}
