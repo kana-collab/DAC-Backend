@@ -6,7 +6,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['https://www.devallianceusa.com'], // Allow requests from your frontend
+      origin: ['https://www.devallianceusa.com', 'https://www.google.com'], // Allow requests from your frontend
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       allowedHeaders: ['Content-Type', 'Authorization'],
       credentials: true, // If using cookies or authentication
